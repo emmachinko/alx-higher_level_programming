@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 def safe_print_division(a, b):
     try:
-        result = a / b
+        count = a / b
     except:
-        result = None
+        count = None
     finally:
         print("Inside result: {}".format(result))
-        return (result)
+        return (count))
